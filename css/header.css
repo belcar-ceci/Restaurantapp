@@ -20,3 +20,22 @@ header{
 .titulo1{
   font-weight: bold;
 }
+
+
+/*NAV*/
+.nav-mobile{
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 2%;
+  right: 0%;
+  width: fit-content;
+  height: 42vh; 
+  /*
+  vh (viewport-height) = Altura de la ventana gráfica
+  /
+  vw (viewport-width) = Anchura de la ventana gráfica 
+  */
+  display: flex;
+  justify-content: flex-end;
+}
+}

@@ -5,16 +5,17 @@
 
 
 
-html{
+.capagris{
     background: grey;
     display: flex;
     justify-content: center;
 }
-body{
+.capablanca{
     background: white;
     width: 400px;
     font-family: 'Roboto', sans-serif;
     padding: 1%;
+    position: relative;
 }
 
 
