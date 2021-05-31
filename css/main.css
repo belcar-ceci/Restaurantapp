@@ -1,0 +1,31 @@
+.titulo2{
+    font-size: 130%;
+    font-weight: bold;
+}
+.titulo3{
+    font-size: 70%;
+    color:gray;
+}
+/*lista de iconos*/
+.lista {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+  }
+/*los iconos con nombre*/
+  .item {
+    height: 224px;
+    width: 125px;
+    flex-shrink: 0;
+  }
+/*margen al final del último hijo*/
+  .item:not(:last-child) {
+    margin-right: 10px;
+  }
+/* se quitan viñetas 
+.lista {
+    list-style: none;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  

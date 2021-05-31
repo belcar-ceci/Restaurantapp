@@ -1,0 +1,21 @@
+input {
+    display: none;
+  }
+  input:checked  ~ ul{
+    display:flex;
+    justify-content: flex-start;
+  }
+  label {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.titulo1{
+  font-weight: bold;
+}
