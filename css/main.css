@@ -13,19 +13,29 @@
     overflow-x: scroll;
   }
 /*los iconos con nombre*/
-  .item {
-    height: 224px;
-    width: 125px;
+.item {
+    height: 140px;
+    width: 120px;
     flex-shrink: 0;
+    /* centrar item al contenedor, alinear elementos al centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: rgb(209, 229, 168);
+
   }
 /*margen al final del último hijo*/
   .item:not(:last-child) {
     margin-right: 10px;
   }
-/* se quitan viñetas 
+/* se quitan viñetas, se da padding*/ /* */
 .lista {
     list-style: none;
     padding: 20px;
     border-radius: 12px;
   }
-  
+
+
