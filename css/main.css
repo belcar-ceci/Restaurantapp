@@ -1,9 +1,14 @@
+.container{
+  overflow-y: scroll;
+}
 .titulo2{
-    font-size: 130%;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .titulo3{
-    font-size: 70%;
+    font-size: 17px;
     color:gray;
 }
 /*lista de iconos*/
@@ -24,8 +29,7 @@
     flex-direction: column;
     border-radius: 8px;
     font-size: 12px;
-    background-color: rgb(209, 229, 168);
-
+    box-shadow: 5px 10px 20px 0px #dfdfdf;
   }
 /*margen al final del último hijo*/
   .item:not(:last-child) {
@@ -38,4 +42,52 @@
     border-radius: 12px;
   }
 
-
+.platos{
+  padding-left: 20px;
+}
+.articulos{
+  display: flex;
+  margin-top: 5%;
+  height: 130px;
+}
+.imagenmenu{
+  width: 35%;
+  border-radius: 20%;
+  max-height: 200px;
+  box-shadow: 5px 10px 20px 0px #dfdfdf;
+}
+.imagenmenu img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+}
+.detallesmenu{
+  margin-left: 3%;
+  line-height: 30%;
+  width: 65%;
+}
+.precioplato{
+  color: orange;
+  font-weight: bold;
+  font-size: large;
+}
+.nombreplato{
+  font-weight: bold;
+  font-size: large;
+}
+.detalleplato{
+  color: rgb(199, 199, 199);
+  font-size: small;
+}
+.buttonContadores
+{
+  display: flex;
+  align-items: center;
+}
+.botones
+{
+  font-size: 20px;
+  margin: 3%;
+  background-color: white;
+  border: 0;
+}
