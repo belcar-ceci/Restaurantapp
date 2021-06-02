@@ -13,10 +13,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 9%;
 }
 .precios
 {
     display: flex;
     flex-direction: column;
+    padding-right: 13%;
     
+}
+.enviopedido
+{
+    display: flex;
+    width: 100%;
+    padding: 13px;
+    justify-content: center;
+    border-radius: 15px;
+}
+.botonpedido
+{
+    display: flex;
+    justify-content: center;
 }

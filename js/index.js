@@ -1,11 +1,14 @@
+let mainView = document.getElementById('index');
+let cartView = document.getElementById('carrito');
+
 function ocultar()
 {
-    document.getElementById('index').style.display = 'none';
-    document.getElementById('carrito').style.display = 'block';
+    mainView.style.display = 'none';
+    cartView.style.display = 'block';
 }
 function mostrar()
 {
-    document.getElementById('index').style.display = 'block';
-    document.getElementById('carrito').style.display = 'none';
+    mainView.style.display = 'block';
+    cartView.style.display = 'none';
 
 }
