@@ -1,0 +1,22 @@
+.footerCarrito
+{
+    left: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ff6b00;
+    border-radius: 10%;
+}
+.pago
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precios
+{
+    display: flex;
+    flex-direction: column;
+    
+}

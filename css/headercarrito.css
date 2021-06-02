@@ -1,0 +1,29 @@
+.header__carrito
+{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.atras
+{
+    background-color: #e3d5d5;
+}
+.botones_header
+{
+    border: 0;
+    border-radius: 20%;
+    margin: 2%;
+    width: 10%;
+    height: 30px;
+}
+.basura
+{
+    background-color: transparent;
+}
+.basura img
+{
+    width: 150%;
+    height: 100%;
+}

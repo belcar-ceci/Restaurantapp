@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="capagris">
-        <div class="capablanca">
+        <div id="index" class="capablanca"> <!-- Primera parte -->
             <header class="header">
                 <p class="titulo1">Food House</p>
                 <button class="button__nav">☰</button>
@@ -41,7 +41,7 @@
                 <section class="platos">
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="/img/section comida/ensaladapollo.jpg" alt="ensalada">
+                            <img src="img/section comida/ensaladapollo.jpg" alt="ensalada">
                         </div>
                         
                         <div class="detallesmenu">
@@ -58,7 +58,7 @@
                     </article>
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="/img/section comida/curry.jpg" alt="curry">
+                            <img src="img/section comida/curry.jpg" alt="curry">
                         </div>
                         
                         <div class="detallesmenu">
@@ -75,7 +75,7 @@
         
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="/img/section comida/baconfrenchfries.jpg" alt="papas">
+                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
                         </div>
                         
                         <div class="detallesmenu">
@@ -91,7 +91,7 @@
                     </article>
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="/img/section comida/baconfrenchfries.jpg" alt="papas">
+                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
                         </div>
                         
                         <div class="detallesmenu">
@@ -107,7 +107,7 @@
                     </article>
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="/img/section comida/baconfrenchfries.jpg" alt="papas">
+                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
                         </div>
                         
                         <div class="detallesmenu">
@@ -130,13 +130,109 @@
                     <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/hogar (1).png"></button>
                     <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/mensaje.png"></button>
                 </div>
-                <button class="icon_footer carrito"><img class="imgCarrito" src="img/iconos footer/carrito.PNG"></button>
+                <button onclick="ocultar()" class="icon_footer carrito"><img class="imgCarrito" src="img/iconos footer/carrito.PNG"></button>
                 <div class="footer__botones">
                     <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/heart.png"></button>
                     <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/usuario.png"></button>
                 </div>
             </footer>
         </div>
+        <div id="carrito" class="capablanca hojaCarrito">  <!-- Segunda parte -->
+            <header class="header__carrito">
+                <button onclick="mostrar()" class="botones_header atras"> ◄ </button>
+                <button class="basura botones_header"><img src="img/cubobasura/eliminar.png" alt=""></button>
+            </header>
+            <main class="container">
+                <h1>My Cart</h1>
+                <section class="platos">
+                    <article class="articulos">
+                        <div class="imagenmenu">
+                            <img src="img/section comida/ensaladapollo.jpg" alt="ensalada">
+                        </div>
+                        
+                        <div class="detallesmenu">
+                            <p class="precioplato">$52.00</p>
+                            <p class="nombreplato">Chicken Veggi Salad</p>
+                            <p class="detalleplato">With cheese saude</p>
+                            <div class="buttonContadores">
+                                <button class="botones">-</button>
+                                <label for="">02</label>
+                                <button class="botones">+</button>
+                            </div>
+                        </div>
+                        
+                    </article>
+                    <article class="articulos">
+                        <div class="imagenmenu">
+                            <img src="img/section comida/curry.jpg" alt="curry">
+                        </div>
+                        
+                        <div class="detallesmenu">
+                            <p class="precioplato">$23.00</p>
+                            <p class="nombreplato">Mutton Curry</p>
+                            <p class="detalleplato">Wiht basmati rice</p>
+                            <div class="buttonContadores">
+                                <button class="botones">-</button>
+                                <label for="">06</label>
+                                <button class="botones">+</button>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="articulos">
+                        <div class="imagenmenu">
+                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
+                        </div>
+                        
+                        <div class="detallesmenu">
+                            <p class="precioplato">$21.00</p>
+                            <p class="nombreplato">Frech Fry</p>
+                            <p class="detalleplato">With beef bacon</p>
+                            <div class="buttonContadores">
+                                <button class="botones">-</button>
+                                <label for="">08</label>
+                                <button class="botones">+</button>
+                            </div >
+                        </div>
+                    </article>
+                    <article class="articulos">
+                        <div class="imagenmenu">
+                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
+                        </div>
+                        
+                        <div class="detallesmenu">
+                            <p class="precioplato">$21.00</p>
+                            <p class="nombreplato">Frech Fry</p>
+                            <p class="detalleplato">With beef bacon</p>
+                            <div class="buttonContadores">
+                                <button class="botones">-</button>
+                                <label for="">08</label>
+                                <button class="botones">+</button>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            <footer class="footerCarrito">
+                <section class="pago">
+                    <div>
+                        <p>Subtotal</p>
+                        <p>Tax & Fees</p>
+                        <p>Delivery</p>
+                        <p>Total</p>
+
+                    </div>
+                    <div class="precios">
+                        <label>$</label>
+                        <label>$</label>
+                        <label>Free</label>
+                        <label>$</label>
+                    </div>
+                </section>
+                <button>Enviar pedido</button>
+            </footer>
+        </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
