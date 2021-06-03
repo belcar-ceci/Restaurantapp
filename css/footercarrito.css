@@ -8,18 +8,26 @@
     background-color: #ff6b00;
     border-radius: 10%;
 }
-.pago
+.comanda
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 9%;
+    
 }
-.precios
+.pago{
+    font-weight: bold;
+    color: white;
+}
+.precios 
 {
     display: flex;
     flex-direction: column;
     padding-right: 13%;
+    font-style: bold;
+    color: white;
+    line-height: 36px;
     
 }
 .enviopedido
@@ -29,9 +37,14 @@
     padding: 13px;
     justify-content: center;
     border-radius: 15px;
+    margin-bottom: 4%;
+    border: solid white;
+    font-weight: bold;
+    font-size: 20px;
 }
 .botonpedido
 {
     display: flex;
     justify-content: center;
+    padding: 3%;
 }
