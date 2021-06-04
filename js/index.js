@@ -1,5 +1,3 @@
-import { menuComida } from "menu.js";
-
 let mainView = document.getElementById('index');
 let cartView = document.getElementById('carrito');
 
