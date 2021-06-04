@@ -28,7 +28,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 15px;
     box-shadow: 5px 10px 20px 0px #dfdfdf;
   }
 /*margen al final del último hijo*/
@@ -44,6 +44,7 @@
 
 .platos{
   padding-left: 20px;
+  height: 890px;
 }
 .articulos{
   display: flex;
@@ -89,5 +90,11 @@
   font-size: 20px;
   margin: 3%;
   background-color: white;
+  border: 0;
+}
+.buttonContadores input
+{
+  margin-left: 5px;
+  width: 5%;
   border: 0;
 }

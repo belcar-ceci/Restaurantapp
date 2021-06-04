@@ -4,6 +4,7 @@
 @import url(footer.css);
 @import url(headercarrito.css);
 @import url(footercarrito.css);
+@import url(maincarrito.css);
 ::-webkit-scrollbar { /* quitar scroll en pagina*/
     display: none;
 }

@@ -49,75 +49,9 @@
                             <p class="nombreplato">Chicken Veggi Salad</p>
                             <p class="detalleplato">With cheese saude</p>
                             <div class="buttonContadores">
-                                <button class="botones">-</button>
-                                <label for="">02</label>
-                                <button class="botones">+</button>
-                            </div>
-                        </div>
-                        
-                    </article>
-                    <article class="articulos">
-                        <div class="imagenmenu">
-                            <img src="img/section comida/curry.jpg" alt="curry">
-                        </div>
-                        
-                        <div class="detallesmenu">
-                            <p class="precioplato">$23.00</p>
-                            <p class="nombreplato">Mutton Curry</p>
-                            <p class="detalleplato">Wiht basmati rice</p>
-                            <div class="buttonContadores">
-                                <button class="botones">-</button>
-                                <label for="">06</label>
-                                <button class="botones">+</button>
-                            </div>
-                        </div>
-                    </article>
-        
-                    <article class="articulos">
-                        <div class="imagenmenu">
-                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
-                        </div>
-                        
-                        <div class="detallesmenu">
-                            <p class="precioplato">$21.00</p>
-                            <p class="nombreplato">Frech Fry</p>
-                            <p class="detalleplato">With beef bacon</p>
-                            <div class="buttonContadores">
-                                <button class="botones">-</button>
-                                <label for="">08</label>
-                                <button class="botones">+</button>
-                            </div >
-                        </div>
-                    </article>
-                    <article class="articulos">
-                        <div class="imagenmenu">
-                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
-                        </div>
-                        
-                        <div class="detallesmenu">
-                            <p class="precioplato">$21.00</p>
-                            <p class="nombreplato">Frech Fry</p>
-                            <p class="detalleplato">With beef bacon</p>
-                            <div class="buttonContadores">
-                                <button class="botones">-</button>
-                                <label for="">08</label>
-                                <button class="botones">+</button>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="articulos">
-                        <div class="imagenmenu">
-                            <img src="img/section comida/baconfrenchfries.jpg" alt="papas">
-                        </div>
-                        
-                        <div class="detallesmenu">
-                            <p class="precioplato">$21.00</p>
-                            <p class="nombreplato">Frech Fry</p>
-                            <p class="detalleplato">With beef bacon</p>
-                            <div class="buttonContadores">
-                                <button class="botones">-</button>
-                                <label for="">08</label>
-                                <button class="botones">+</button>
+                                <button onclick="restarItem()" class="botones">-</button>
+                                <input class="cantidad">
+                                <button onclick="sumarItem()" class="botones">+</button>
                             </div>
                         </div>
                     </article>
@@ -142,7 +76,7 @@
                 <button onclick="mostrar()" class="botones_header atras"> ◄ </button>
                 <button class="basura botones_header"><img src="img/cubobasura/eliminar.png" alt=""></button>
             </header>
-            <main class="container">
+            <main class="container platosCarrito">
                 <h1>My Cart</h1>
                 <section class="platos">
                     <article class="articulos">
