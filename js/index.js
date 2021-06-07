@@ -27,3 +27,6 @@ function restarItem()
         elementInput.value--;
     }
 }
+
+
+
