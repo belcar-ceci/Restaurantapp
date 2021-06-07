@@ -12,21 +12,3 @@ function mostrar()
     cartView.style.display = 'none';
 
 }
-
-let elementInput = document.querySelector(".cantidad");
-elementInput.value = 0;
-
-function sumarItem() 
-{
-    elementInput.value++;
-}
-function restarItem()
-{
-    if(elementInput.value > 0 )
-    {
-        elementInput.value--;
-    }
-}
-
-
-

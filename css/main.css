@@ -45,6 +45,7 @@
 .platos{
   padding-left: 20px;
   height: 444px;
+  padding-bottom: 100px;
 }
 .articulos{
   display: flex;

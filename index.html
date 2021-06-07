@@ -20,7 +20,7 @@
                 <div class="carrusel">
                     <ul class="lista">
                       <li class="item">
-                          <img src="img/breakfast.png" width="60%"> Breakfast</li>
+                          <img onclick="productosmenu()" src="img/breakfast.png" width="60%"> Breakfast</li>
                       <li class="item">
                           <img src="img/hamburger.png" width="60%"> Fast Food</li>
                       <li class="item">
@@ -28,33 +28,18 @@
                       <li class="item">
                           <img src="img/cake.png" width="60%"> Dessert</li>
                     </ul>
-                <section class="platos">
-                    <article class="articulos">
-                        <div class="imagenmenu">
-                            <img src="img/section comida/ensaladapollo.jpg" alt="ensalada">
-                        </div>
-                        <div class="detallesmenu">
-                            <p class="precioplato">$52.00</p>
-                            <p class="nombreplato">Chicken Veggi Salad</p>
-                            <p class="detalleplato">With cheese saude</p>
-                            <div class="buttonContadores">
-                                <button onclick="restarItem()" class="botones">-</button>
-                                <input class="cantidad">
-                                <button onclick="sumarItem()" class="botones">+</button>
-                            </div>
-                        </div>
-                    </article>
+                <section id="seccionComida" class="platos">    
                 </section>
             </main>
             <footer class="footer">
                 <div class="footer__botones">
-                    <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/hogar (1).png"></button>
-                    <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/mensaje.png"></button>
+                    <button class="icon_footer"><img class="imgBotones" src="img/iconosfooter/hogar (1).png"></button>
+                    <button class="icon_footer"><img class="imgBotones" src="img/iconosfooter/mensaje.png"></button>
                 </div>
-                <button onclick="ocultar()" class="icon_footer carrito"><img class="imgCarrito" src="img/iconos footer/carrito.PNG"></button>
+                <button onclick="ocultar()" class="icon_footer carrito"><img class="imgCarrito" src="img/iconosfooter/carrito.PNG"></button>
                 <div class="footer__botones">
-                    <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/heart.png"></button>
-                    <button class="icon_footer"><img class="imgBotones" src="img/iconos footer/usuario.png"></button>
+                    <button class="icon_footer"><img class="imgBotones" src="img/iconosfooter/heart.png"></button>
+                    <button class="icon_footer"><img class="imgBotones" src="img/iconosfooter/usuario.png"></button>
                 </div>
             </footer>
         </div>
@@ -68,7 +53,7 @@
                 <section id="sectioncarrito" class="platos">
                     <article class="articulos">
                         <div class="imagenmenu">
-                            <img src="img/section comida/ensaladapollo.jpg" alt="ensalada">
+                            <img src="img/sectioncomida/ensaladapollo.jpg" alt="ensalada">
                         </div>
                         <div class="detallesmenu">
                             <p class="precioplato">$52.00</p>
@@ -107,6 +92,5 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/prueba.js"></script>
 </body>
 </html>
