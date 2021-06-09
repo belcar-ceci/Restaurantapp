@@ -136,7 +136,6 @@ function printData(element)
     contadores.appendChild(botonSumar);
 }
 
-
 function sumarItem()
 {
     if(botonSumar.dataset.marcador === inputContador.dataset.marcador)
