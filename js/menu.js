@@ -105,21 +105,21 @@ function printData(element)
     let botonRestar = document.createElement('button');
     botonRestar.classList.add('botones');
     botonRestar.textContent = '-';
-    botonRestar.setAttribute('data-marcador', element.id);
-    botonRestar.addEventListener('click', restarItem);
+    botonRestar.setAttribute('data-marcador', element.inputCantidad);
+    botonRestar.addEventListener('click', sumarItem);
     botonRestar.setAttribute('id', 'botonRestar')
 
     let inputCantidad = document.createElement('input');
     inputCantidad.classList.add('cantidad');
     inputCantidad.value = 0;
-    inputCantidad.setAttribute('data-marcador', element.id);
+    inputCantidad.setAttribute('data-marcador', element.inputCantidad);
     inputCantidad.setAttribute('id', 'inputContador')
 
     let botonSumar = document.createElement('button');
     botonSumar.classList.add('botones');
     botonSumar.textContent = '+';
-    botonSumar.setAttribute('data-marcador', element.id);
-    botonSumar.addEventListener('click', sumarItem);
+    botonSumar.setAttribute('data-marcador', element.inputCantidad);
+    botonSumar.addEventListener('click', restarItem);
     botonSumar.setAttribute('id', 'botonSumar')
 
     
@@ -135,7 +135,6 @@ function printData(element)
     contadores.appendChild(inputCantidad);
     contadores.appendChild(botonSumar);
 }
-
 function sumarItem()
 {
     if(botonSumar.dataset.marcador === inputContador.dataset.marcador)
@@ -152,3 +151,4 @@ function restarItem()
 }
 
 loadArrayDishes(menuLista);
+
